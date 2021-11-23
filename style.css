@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@media(max-width:700px;){.info{display: block;}}
+
+         /* Цвета */
+.bg-y{ background-color: #fff9dc;}
+.bg-g{ background-color: #e5ffe7;}
+.bg-r{ background-color: #ffe5e5;}
+.bg-b{ background-color: #dbd6f8;}
+.bg-d{ background-color: #affde2;}
+
+          /* Общий поле страницы*/
+body{background-color: azure;
+ color:rgb(23, 23, 24); 
+ font-size: 20px; font-weight:700; 
+ font-family:font-family:'Roboto', sans-serif;}
+
+                /* Картика */
+.avatar{ 
+display:block;
+margin: auto;
+width: 400px;
+}
+           /* Поле со списком */
+.op{ 
+padding: 15px;
+border: 40px;
+border-radius: 32px;
+margin-bottom: 10px;
+
+}
+           /* Поле с ссылками */
+.tp{
+text-align: center;
+color: rgb(0, 0, 0);
+padding: 15px;
+border: 40px;
+border-radius: 32px;
+margin-bottom: 10px;
+}
+          /* Ссылки */
+a:hover{text-decoration-line: underline; 
+color:rgb(100, 42, 102);
+}
+a:active{color:rgb(209, 175, 41);}
+/*a:visited{color:rgb(102, 26, 102);}*/
+
+      /* Третье поле с таблицей */
+.jp{
+padding: 15px;
+border: 40px;
+border-radius: 32px;
+margin-bottom: 10px;
+}
+                 /* Таблицы */
+.table{width: 100%; text-align: center;}
+.table td{padding-bottom: 10px;}
+      
+           /* Связь со мной с формами */
+.sv h2{text-align: center;}
+.sv{
+padding: 15px;
+border: 40px;
+border-radius: 32px;
+margin-bottom: 10px;
+}
+
+.svc label{
+display:block;
+font-size: 30px;}
+
+.svc input,.svc textarea{
+width: 100%;
+box-sizing: border-box;
+border: none;
+background-color: transparent;
+border-bottom: 2px solid rgb(101, 150, 224);
+padding: 15px 0 10px;
+outline: none;
+font-family: inherit;
+}
+.svcw{display: flex;
+margin-bottom: 28px;}
+
+.svcw>.svc{
+width:50%;
+margin-right: 30px;
+}
+
+.btn{
+background: gray;
+padding: 15px ,15px;
+color: thistle;
+border:none;
+font-family: inherit;
+border-radius: 10px;
+width: 25%;
+cursor: pointer;
+}   
+ .btn:hover{opacity: 0.9;}
+ 
+               /*Ссыли*/
+/*.fp h2{text-align: center;}*/
+.fp{padding: 15px;
+border: 40px;
+border-radius: 32px;
+margin-bottom: 10px;
+text-align: center;
+}
